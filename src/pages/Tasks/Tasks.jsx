@@ -1,7 +1,10 @@
+import styles from './Tasks.module.css'
+import { Header } from "../../components/Header/Header"
+
 export function Tasks(){
   return (
-    <>
-      <h1>Tasks</h1>
-    </>
+    <div className={styles.tasksPage}>
+      <Header/>
+    </div>
   )
 }
