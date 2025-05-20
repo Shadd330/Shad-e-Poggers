@@ -2,6 +2,7 @@
   background-color: #15121c;
   width: 100%;
   height: 100px;  
+  position: relative;
 }
 
 .linkButtons{
@@ -19,4 +20,9 @@
   background-color: #8c52ff;
   border-radius: 1.5rem;
   margin-top: -2rem;
+}
+
+.btn{
+  text-align: center;
+  justify-content: center;
 }

@@ -4,14 +4,14 @@ export function Header() {
   return(
     <section className={styles.header}>
       <div className={styles.linkButtons}>
-        <a>
-          a
+        <a className ={styles.btn}>
+          Tasks
         </a>
-        <a>
-          b
+        <a className ={styles.btn1}>
+          Global
         </a>
-        <a>
-          c
+        <a className ={styles.btn2}>
+          Control
         </a>
       </div>
       <div className={styles.logo}>

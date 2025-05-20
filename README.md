@@ -19,3 +19,8 @@ git commit -m "<MESSAGE>"
 ```
 
 [GitHub Git Guide](https:/github.com/git-guides)
+
+
+# TO DO LIST:
+
+- At the end of the project create a soft ligth undet the cursor like the minecraft torch, for example.
