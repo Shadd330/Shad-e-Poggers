@@ -5,7 +5,7 @@ export function Header() {
     <section className={styles.header}>
       <div className={styles.linkButtons}>
         <a className ={styles.btn}>
-          Tasks
+          <h1>Call</h1>
         </a>
         <a className ={styles.btn1}>
           Global

@@ -3,12 +3,11 @@ import { Control } from './Control/Control';
 import { Global } from './Global/Global';
 import { Tasks } from './Tasks/Tasks';
 import { NotFound } from './NotFound/NotFound';
-import { Header } from "../components/Header/Header";
+
 
 export function Pages() {
   return (  
       <Router>
-         <Header/>
         <Routes>
           <Route path="/tasks" element={<Tasks />}/>
           <Route path="/global" element={<Global />}/>
